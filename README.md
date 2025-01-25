@@ -31,8 +31,12 @@ Open your browser and go to:
 
 ```http://localhost:5173```
 
+---
+
 ## 📂 Deployment
 This a personal project that is deployed using Vercel. Visit the live site here: https://google.com/
+
+---
 
 ## 📧 Contact
 For any inquiries or feedback, you can reach me at:
