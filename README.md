@@ -1,6 +1,6 @@
-# Personal Website Portfolio
+# Andrew's Personal Website Portfolio
 
-Welcome to my personal website portfolio! This project showcases my work, skills, and experiences in a professional and visually appealing way. Built using **React.js**, **TypeScript**, and **Vite**, the website is designed to be fast, responsive, and easy to navigate.
+Welcome to my personal website portfolio! This project showcases my work, skills, and experiences in a professional and visually appealing way. Built using **React.js**, **TypeScript**, **Vite** amd **Bootstrap**, the website is designed to be fast, responsive, and easy to navigate.
 
 ---
 
