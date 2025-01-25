@@ -20,12 +20,15 @@ Follow these steps to run the project locally on your machine:
 ```cd website-portfolio```
 ### 3. Install Dependecies
 Make sure you have Node.js and npm installed. Then, run:
+
 ```npm install```
 ### 4. Start the Development Server
 Run the following command to start the development server:
+
 ```npm run dev```
 ### 5. Start the Development Server
 Open your browser and go to:
+
 ```http://localhost:5173```
 
 ## 📂 Deployment
