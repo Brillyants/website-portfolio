@@ -16,3 +16,23 @@ Follow these steps to run the project locally on your machine:
 
 ### 1. Clone the Repository
 ```git clone https://github.com/Brillyants/website-portfolio.git```
+### 2. Navigate to the Project Directory
+```cd website-portfolio```
+### 3. Install Dependecies
+Make sure you have Node.js and npm installed. Then, run:
+```npm install```
+### 4. Start the Development Server
+Run the following command to start the development server:
+```npm run dev```
+### 5. Start the Development Server
+Open your browser and go to:
+```http://localhost:5173```
+
+## 📂 Deployment
+This a personal project that is deployed using Vercel. Visit the live site here: https://google.com/
+
+## 📧 Contact
+For any inquiries or feedback, you can reach me at:
+- **Whatsapp**: (+62) 851-7441-9022
+- **Email**: andrewbrillyant@gmail.com
+- **Linkedin**: andrew-brillyant
