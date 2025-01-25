@@ -15,4 +15,4 @@ Welcome to my personal website portfolio! This project showcases my work, skills
 Follow these steps to run the project locally on your machine:
 
 ### 1. Clone the Repository
-```bash git clone https://github.com/Brillyants/website-portfolio.git```
+```git clone https://github.com/Brillyants/website-portfolio.git```
