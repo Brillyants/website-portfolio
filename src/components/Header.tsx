@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-import logo from "../assets/img/logo.svg";
-import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
+import logo from "../assets/img/brillyant-logo.png";
+import linkedinLogo from "../assets/img/linkedin-logo.svg";
+import whatsappLogo from "../assets/img/whatsapp-logo.png";
+import instagramLogo from "../assets/img/instagram-logo.svg";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -26,33 +26,30 @@ const Header = () => {
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#home">
-          <img src={logo} alt="Logo" />
+          <img src={logo} alt="Logo" id="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home" className="navbar-link">
-              Home
-            </Nav.Link>
             <Nav.Link href="#skills" className="navbar-link">
               Skills
             </Nav.Link>
-            <Nav.Link href="#project" className="navbar-link">
-              Project
+            <Nav.Link href="#projects" className="navbar-link">
+              Projects
             </Nav.Link>
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#">
-                <img src={navIcon1} alt="" />
+              <a href="https://www.linkedin.com/in/andrew-brillyant/">
+                <img src={linkedinLogo} alt="" />
               </a>
-              <a href="#">
-                <img src={navIcon2} alt="" />
+              <a href="http://wa.me/6285174419022">
+                <img src={whatsappLogo} alt="" />
               </a>
-              <a href="#">
-                <img src={navIcon3} alt="" />
+              <a href="https://instagram.com/andrewbrillyant">
+                <img src={instagramLogo} alt="" />
               </a>
             </div>
             <button className="vvd" onClick={() => console.log("test connect")}>

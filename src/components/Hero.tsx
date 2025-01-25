@@ -44,9 +44,9 @@ const Hero = () => {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={6}>
-            <span className="tagline">IT Enthusiast</span>
+            <span className="tagline">Andrew Brillyant</span>
             <h1>
-              {`People Call Me As `}
+              {`Also Known As `}
               <span className="wrap purple-text">{text}</span>
             </h1>
             <p>
