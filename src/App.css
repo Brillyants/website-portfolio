@@ -638,8 +638,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* Start Footer CSS */
 .footer {
-  padding: 0 0 50px 0;
-  background-image: url('./assets/img/footer-bg.png');
+  padding: 50px 0 50px 0;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

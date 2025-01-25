@@ -13,14 +13,10 @@ const Skills = () => {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
       items: 2,
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 850, min: 0 },
       items: 1,
     },
   };
@@ -46,12 +42,16 @@ const Skills = () => {
                   <h5>Web Development</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Skill Image" />
+                  <img src={meter1} alt="Skill Image" />
                   <h5>Web Designer</h5>
                 </div>
                 <div className="item">
                   <img src={meter3} alt="Skill Image" />
                   <h5>Data Visualization and Analytics</h5>
+                </div>
+                <div className="item">
+                  <img src={meter2} alt="Skill Image" />
+                  <h5>Android</h5>
                 </div>
                 <div className="item">
                   <img src={meter1} alt="Skill Image" />
