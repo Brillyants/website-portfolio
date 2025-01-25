@@ -8,8 +8,8 @@ const Hero = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [text, setText] = useState("");
-  const toRotate = ["Web Developer", "Web Designer", "Freelancer"];
-  const period = 250;
+  const toRotate = ["Software Engineer", "Web Developer", "Data Practicion"];
+  const period = 150;
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -44,14 +44,16 @@ const Hero = () => {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={6}>
-            <span className="tagline">Welcome to my Portfolio</span>
+            <span className="tagline">IT Enthusiast</span>
             <h1>
-              {`Andrew Brillyant - `}
-              <span className="wrap">{text}</span>
+              {`People Call Me As `}
+              <span className="wrap purple-text">{text}</span>
             </h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              An IT enthusiast passionate about transforming ideas into
+              impactful solutions, with a keen eye for innovation and a drive
+              for excellence. I specialize in crafting seamless digital
+              experiences that inspire and deliver results 🌟
             </p>
             <button onClick={() => console.log("test button hero")}>
               Let's Connect <ArrowRightCircle size={25} />

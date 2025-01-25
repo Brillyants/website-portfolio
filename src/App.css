@@ -31,11 +31,9 @@ html {
 
 body {
   font-weight: 400;
-  /* No overflow content horizontally */
   overflow-x: hidden;
   position: relative;
-  /* Prevent bootstrap overriding */
-  background-color: #1d0549 !important;
+  background-color: #121212 !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
@@ -95,6 +93,10 @@ p.success {
 
 p.danger {
   color: red;
+}
+
+.purple-text {
+  color: #b32bb3;
 }
 
 /* Start Navbar CSS */
@@ -276,7 +278,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .hero {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
+  background-image: url('./assets/img/hero-bg.png');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -407,7 +409,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-image: url('./assets/img/color-sharp.png');
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 .project h2 {
@@ -436,6 +440,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .project .nav.nav-pills .nav-item {
   width: 33.33333%;
+  border: none;
 }
 
 .project .nav.nav-pills .nav-link {
@@ -469,22 +474,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 100% !important;
 }
 
-.project .nav.nav-pills .nav-link.active {
-  border: 1px solid rgba(255, 255, 255, 1);
-}
-
 .nav-link#projects-tabs-tab-first {
-  border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 55px 0px 0px 55px;
 }
 
-.nav-link#projects-tabs-tab-second {
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-}
-
 .nav-link#projects-tabs-tab-third {
-  border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 }
 
