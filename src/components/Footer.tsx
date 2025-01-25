@@ -10,7 +10,9 @@ const Footer = () => {
       <Container>
         <Row className="align-items-center">
           <Col size={12} sm={6}>
-            <img src={logo} alt="Logo" id="logo" />
+            <a href="#home">
+              <img src={logo} alt="Logo" id="logo" />
+            </a>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
@@ -24,7 +26,9 @@ const Footer = () => {
                 <img src={instagramLogo} alt="Icon" />
               </a>
             </div>
-            <p>Build with React + Vite + Typescript + Bootstrap 💕</p>
+            <p>
+              Build with <b>React, Vite, Typescript, and Bootstrap</b> 💕
+            </p>
           </Col>
         </Row>
       </Container>

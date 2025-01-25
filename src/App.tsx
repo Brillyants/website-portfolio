@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import Tools from "./components/Tools";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Hero />
       <Skills />
+      <Tools />
       <Projects />
       <Footer />
     </>
