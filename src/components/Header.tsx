@@ -10,20 +10,27 @@ const Header = () => {
 
   useEffect(() => {
     const onScroll = () => {
-      if (window.scrollY > 50) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
+      const headerElement = document.getElementById("header");
+      if (headerElement) {
+        const headerHeight = headerElement.offsetHeight;
+        if (window.scrollY > headerHeight) {
+          setScrolled(true);
+        } else {
+          setScrolled(false);
+        }
       }
-
-      window.addEventListener("scroll", onScroll);
-
-      return () => window.removeEventListener("scroll", onScroll);
     };
+
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
   return (
-    <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
+    <Navbar
+      id="header"
+      expand="lg"
+      className={scrolled ? "scrolled bg-grey" : ""}
+    >
       <Container>
         <Navbar.Brand href="#home">
           <img src={logo} alt="Logo" id="logo" />

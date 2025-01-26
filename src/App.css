@@ -110,8 +110,8 @@ nav.navbar {
 }
 
 nav.navbar.scrolled {
-  padding: 0px 0;
-  background-color: #121212;
+  padding: 20px 0;
+  background-color: #121212 !important;
 }
 
 nav.navbar a.navbar-brand {
