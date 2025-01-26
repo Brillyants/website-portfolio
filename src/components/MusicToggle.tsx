@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import { Music, VolumeOff } from "lucide-react";
-import noBgm from "../assets/img/no-copyright-bgm.mp3";
+import noBgm from "../assets/audio/no-copyright-bgm.mp3";
 
 const MusicToggle = () => {
   const [isPlaying, setIsPlaying] = useState(false);
