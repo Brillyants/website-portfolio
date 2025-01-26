@@ -15,7 +15,9 @@ const Tools = () => {
         <Row>
           <Col>
             <div className="tool-bx">
-              <h2>Tools & Frameworks</h2>
+              <h2>
+                Tools &<span className="purple-text"> Frameworks</span>
+              </h2>
               <p>
                 I work with a range of tools and frameworks to build efficient
                 and scalable solutions, focusing on technologies that enhance

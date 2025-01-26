@@ -6,6 +6,8 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Tools from "./components/Tools";
 import MusicToggle from "./components/MusicToggle";
+import About from "./components/About";
+import CareerEducation from "./components/CareerEducation";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Header />
       <Hero />
       <Skills />
+      <About />
+      <CareerEducation />
       <Tools />
       <Projects />
       <Footer />
