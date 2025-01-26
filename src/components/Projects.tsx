@@ -213,6 +213,9 @@ const Projects = () => {
                 </div>
               )}
             </TrackVisibility>
+            <a href="https://drive.google.com/drive/folders/1KBcf-3jyu-Uxqg-gDwD4ef-G0g6yCZ1D?usp=sharing">
+              <button>More Portfolio...</button>
+            </a>
           </Col>
         </Row>
       </Container>
