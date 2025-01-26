@@ -390,6 +390,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-decoration: none;
 }
 
+.wrap {
+  display: inline-block;
+  min-width: 200px;
+  white-space: nowrap;
+  transition: width 0.5s ease-out;
+}
+
 @keyframes updown {
   0% {
     transform: translateY(-20px);
@@ -402,10 +409,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   100% {
     transform: translateY(-20px);
   }
-}
-
-.txt-rotate>.wrap {
-  border-right: 0.08em solid #666;
 }
 
 @media (max-width: 767px) {
