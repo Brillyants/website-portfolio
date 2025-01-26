@@ -433,10 +433,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     display: inline-flex;
     justify-content: center;
   }
-
-  .row>* {
-    margin-bottom: 50px;
-  }
 }
 
 /* End Hero CSS */
