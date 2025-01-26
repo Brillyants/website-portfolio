@@ -7,6 +7,7 @@ import instagramLogo from "../assets/img/instagram-logo.svg";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
+  const [isToggled, setIsToggled] = useState(false);
 
   useEffect(() => {
     const onScroll = () => {
@@ -25,13 +26,25 @@ const Header = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  const handleToggle = () => {
+    setIsToggled(!isToggled);
+  };
+
   return (
-    <Navbar id="header" expand="lg" className={scrolled ? "scrolled" : ""}>
+    <Navbar
+      id="header"
+      expand="lg"
+      className={scrolled || isToggled ? "scrolled bg-grey" : ""}
+    >
       <Container>
         <Navbar.Brand href="#home">
           <img src={logo} alt="Logo" id="logo" />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav">
+        <Navbar.Toggle
+          aria-controls="basic-navbar-nav"
+          onClick={handleToggle}
+          aria-expanded={isToggled}
+        >
           <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav" className="text-end">
