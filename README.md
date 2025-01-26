@@ -36,7 +36,7 @@ Open your **browser** and go to:
 ---
 
 ## 📂 Deployment
-This a personal project that is deployed using **Vercel**. Visit the live site here: **https://google.com/**
+This a personal project that is deployed using **Vercel**. Visit the live site here: **andrewbrillyant.vercel.app**
 
 ---
 
