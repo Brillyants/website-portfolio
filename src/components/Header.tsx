@@ -26,11 +26,7 @@ const Header = () => {
   }, []);
 
   return (
-    <Navbar
-      id="header"
-      expand="lg"
-      className={scrolled ? "scrolled bg-grey" : ""}
-    >
+    <Navbar id="header" expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#home">
           <img src={logo} alt="Logo" id="logo" />
