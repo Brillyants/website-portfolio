@@ -5,6 +5,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Tools from "./components/Tools";
+import MusicToggle from "./components/MusicToggle";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Tools />
       <Projects />
       <Footer />
+      <MusicToggle />
     </>
   );
 }
