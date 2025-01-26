@@ -45,17 +45,20 @@ const Header = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/andrewbrillyant/">
+              <a
+                href="https://www.linkedin.com/in/andrewbrillyant/"
+                target="_blank"
+              >
                 <img src={linkedinLogo} alt="LinkedIn" />
               </a>
-              <a href="http://wa.me/6285174419022">
+              <a href="http://wa.me/6285174419022" target="_blank">
                 <img src={whatsappLogo} alt="WhatsApp" />
               </a>
-              <a href="https://instagram.com/andrewbrillyant">
+              <a href="https://instagram.com/andrewbrillyant" target="_blank">
                 <img src={instagramLogo} alt="Instagram" />
               </a>
             </div>
-            <a href="http://wa.me/6285174419022">
+            <a href="http://wa.me/6285174419022" target="_blank">
               <button className="vvd">Let's Connect</button>
             </a>
           </span>

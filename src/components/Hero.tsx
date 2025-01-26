@@ -55,7 +55,7 @@ const Hero = () => {
               for excellence. I specialize in crafting seamless digital
               experiences that inspire and deliver results 🌟
             </p>
-            <a href="http://wa.me/6285174419022">
+            <a href="http://wa.me/6285174419022" target="_blank">
               <button>
                 Let's Connect <ArrowRightCircle size={25} />
               </button>

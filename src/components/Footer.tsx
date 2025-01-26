@@ -16,13 +16,16 @@ const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/andrew-brillyant/">
+              <a
+                href="https://www.linkedin.com/in/andrew-brillyant/"
+                target="_blank"
+              >
                 <img src={linkedinLogo} alt="Icon" />
               </a>
-              <a href="http://wa.me/6285174419022">
+              <a href="http://wa.me/6285174419022" target="_blank">
                 <img src={whatsappLogo} alt="Icon" />
               </a>
-              <a href="https://instagram.com/andrewbrillyant">
+              <a href="https://instagram.com/andrewbrillyant" target="_blank">
                 <img src={instagramLogo} alt="Icon" />
               </a>
             </div>
