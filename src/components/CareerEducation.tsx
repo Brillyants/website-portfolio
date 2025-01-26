@@ -88,7 +88,11 @@ const CareerEducation = () => {
                       </Col>
                     </Row>
                   </Container>
-                  <p>University</p>
+                  <p>
+                    Completed university with a major in Information Systems,
+                    earning an academic scholarship as the top student with the
+                    highest GPA in semesters 2, 3, and 4.
+                  </p>
                   <p className="white-text">Tangerang, Indonesia</p>
                 </Col>
               </Row>
@@ -113,8 +117,11 @@ const CareerEducation = () => {
                     </Row>
                   </Container>
                   <p>
-                    Laboratory assistant for Probability and Statistics course
+                    Laboratory assistant for the Probability and Statistics
+                    course, ranked among the TOP 3 teaching assistants for
+                    outstanding performance.
                   </p>
+
                   <p className="white-text">Tangerang, Indonesia</p>
                 </Col>
                 <Col
@@ -152,7 +159,10 @@ const CareerEducation = () => {
                       </Col>
                     </Row>
                   </Container>
-                  <p>Internship at UMN as front-end web developer</p>
+                  <p>
+                    Internship at UMN as a front-end web developer, utilizing
+                    React.js to create web applications front-end.
+                  </p>
                   <p className="white-text">Tangerang, Indonesia</p>
                 </Col>
               </Row>
@@ -180,7 +190,9 @@ const CareerEducation = () => {
                   </Container>
                   <p>
                     Internship at CIMB Niaga as Master Data Management (MDM)
-                    quality assurance
+                    quality assurance, utilizing tools such as Customer 360, MDM
+                    Hub Console, and Provisioning Tools to ensure the system
+                    generate correct golden data.
                   </p>
                   <p className="white-text">Jakarta, Indonesia</p>
                 </Col>
@@ -221,7 +233,10 @@ const CareerEducation = () => {
                   </Container>
                   <p>
                     Internship at Indobest Artha Kreasi as Full Stack Web
-                    Developer
+                    Developer, utilizing Laravel, Vue.js, MySQL, AWS, MariaDB,
+                    and Linux to develop and maintain web applications. Handled
+                    CMS project, maintained development, and resolved bugs in
+                    the CMS.
                   </p>
                   <p className="white-text">Tangerang, Indonesia</p>
                 </Col>
@@ -250,7 +265,11 @@ const CareerEducation = () => {
                   </Container>
                   <p>
                     Full-time Staff at Indobest Artha Kreasi as Full Stack Web
-                    Developer
+                    Developer, utilizing Laravel, Vue.js, MySQL, AWS, MariaDB,
+                    and Linux to develop and maintain web applications. Handled
+                    supplier and product integrations, automated finance
+                    processes, created test cases, and resolved transaction
+                    bugs.
                   </p>
                   <p className="white-text">Tangerang, Indonesia</p>
                 </Col>
