@@ -416,6 +416,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .hero .row img {
     max-width: 100%;
     height: auto;
+    margin-top: 80px;
   }
 
   .hero .tagline {
