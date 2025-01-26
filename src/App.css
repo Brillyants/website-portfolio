@@ -698,6 +698,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .project p {
     width: 100%;
   }
+
+  .project .nav.nav-pills .nav-link {
+    font-size: 14px;
+  }
 }
 
 /* End Project CSS */
