@@ -55,9 +55,9 @@ const Header = () => {
                 <img src={instagramLogo} alt="Instagram" />
               </a>
             </div>
-            <button className="vvd" onClick={() => console.log("test connect")}>
-              Let's Connect
-            </button>
+            <a href="http://wa.me/6285174419022">
+              <button className="vvd">Let's Connect</button>
+            </a>
           </span>
         </Navbar.Collapse>
       </Container>

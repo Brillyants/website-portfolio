@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import heroImg from "../assets/img/hero-img.svg";
+import heroImg from "../assets/img/hero-img.png";
 import { useEffect, useState } from "react";
 
 const Hero = () => {
@@ -42,7 +42,7 @@ const Hero = () => {
   return (
     <section className="hero" id="home">
       <Container>
-        <Row>
+        <Row className="align-items-center">
           <Col xs={12} md={6} xl={6}>
             <span className="tagline">Andrew Brillyant</span>
             <h1>
@@ -55,9 +55,11 @@ const Hero = () => {
               for excellence. I specialize in crafting seamless digital
               experiences that inspire and deliver results 🌟
             </p>
-            <button onClick={() => console.log("test button hero")}>
-              Let's Connect <ArrowRightCircle size={25} />
-            </button>
+            <a href="http://wa.me/6285174419022">
+              <button>
+                Let's Connect <ArrowRightCircle size={25} />
+              </button>
+            </a>
           </Col>
           <Col xs={12} md={6} xl={6}>
             <img src={heroImg} alt="Hero Image" />

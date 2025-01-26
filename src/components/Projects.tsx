@@ -9,8 +9,15 @@ import projDiabetesPrediction from "../assets/img/project-diabetes-prediction.pn
 import projDiabetesClustering from "../assets/img/project-diabetes-clustering.png";
 import projStock from "../assets/img/project-stock.png";
 import projTableau from "../assets/img/project-tableau.png";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projSqueezy from "../assets/img/project-squeezy.png";
+import projPortableAudio from "../assets/img/project-portable-audio.png";
+import projAgm from "../assets/img/project-agm.png";
+import projCaraCepat from "../assets/img/project-cara-cepat.png";
+import projCardiNusantara from "../assets/img/project-cardinusantara.png";
+import projFoodinhands from "../assets/img/project-foodinhands.png";
+import projMKitchen from "../assets/img/project-m-kitchen.png";
+import projSignageDigital from "../assets/img/project-signage-digital.png";
+import projTeknox from "../assets/img/project-teknox.png";
 import TrackVisibility from "react-on-screen";
 
 const Projects = () => {
@@ -77,55 +84,55 @@ const Projects = () => {
       title: "Portable Audio",
       description:
         "E-Commerce website for portable audio company using Wordpress, Elementor, and Woo-commerce",
-      imgUrl: projImg1,
+      imgUrl: projPortableAudio,
     },
     {
       title: "Squeezy",
       description:
         "E-Commerce website for office utilities company using Wordpress, Elementor, and Woo-commerce",
-      imgUrl: projImg3,
+      imgUrl: projSqueezy,
     },
     {
       title: "Nubiso",
       description:
-        "E-Commerce website for clothing company using Wordpress, Elementor, and Woo-commerce",
-      imgUrl: projImg1,
+        "E-Commerce website for signage digital company using Wordpress, Elementor, and Woo-commerce",
+      imgUrl: projSignageDigital,
     },
     {
-      title: "EB Fashion Grosir",
+      title: "Cardi Nusantara",
       description:
-        "E-Commerce website for clothing company using Wordpress, Elementor, and Woo-commerce",
-      imgUrl: projImg1,
+        "Landing page website for personal branding using Wordpress and Elementor",
+      imgUrl: projCardiNusantara,
     },
     {
       title: "M Kitchen",
       description:
         "Company profile website for baking company using Wordpress and Elementor",
-      imgUrl: projImg3,
+      imgUrl: projMKitchen,
     },
     {
-      title: "The Premiere House",
+      title: "Artha Grafika Mediatama",
       description:
-        "Company profile website for real estate company using Wordpress and Elementor",
-      imgUrl: projImg3,
+        "Company profile website for media advertising company using Wordpress and Elementor",
+      imgUrl: projAgm,
     },
     {
       title: "Teknox",
       description:
         "Landing page website for battery retail company using Wordpress and Elementor",
-      imgUrl: projImg1,
+      imgUrl: projTeknox,
     },
     {
       title: "Foodinhands",
       description:
         "Media/blog website for digital marketing agency using Wordpress and Elementor",
-      imgUrl: projImg1,
+      imgUrl: projFoodinhands,
     },
     {
       title: "Cara Cepat",
       description:
         "Course website for edu agency using Wordpress, Elementor, and LearnPress",
-      imgUrl: projImg1,
+      imgUrl: projCaraCepat,
     },
   ];
 

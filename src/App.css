@@ -96,7 +96,7 @@ p.danger {
 }
 
 .purple-text {
-  color: #4815d6;
+  color: #4815D6;
 }
 
 /* Start Navbar CSS */
@@ -376,6 +376,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .hero img {
   animation: updown 3s linear infinite;
+}
+
+.hero a {
+  text-decoration: none;
 }
 
 @keyframes updown {
