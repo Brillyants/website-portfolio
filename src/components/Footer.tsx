@@ -16,10 +16,7 @@ const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a
-                href="https://www.linkedin.com/in/andrew-brillyant/"
-                target="_blank"
-              >
+              <a href="https://www.linkedin.com/in/andrew-brillyant/">
                 <img src={linkedinLogo} alt="Icon" />
               </a>
               <a href="http://wa.me/6285174419022" target="_blank">

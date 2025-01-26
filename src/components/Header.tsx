@@ -61,10 +61,7 @@ const Header = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a
-                href="https://www.linkedin.com/in/andrewbrillyant/"
-                target="_blank"
-              >
+              <a href="https://www.linkedin.com/in/andrewbrillyant/">
                 <img src={linkedinLogo} alt="LinkedIn" />
               </a>
               <a href="http://wa.me/6285174419022" target="_blank">

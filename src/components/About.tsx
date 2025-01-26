@@ -44,24 +44,15 @@ const About = () => {
                 <Col xs={12} md={4} xl={2} className="mb-0">
                   <p>Social Media</p>
                   <div className="social-icon">
-                    <a
-                      href="https://www.linkedin.com/in/andrew-brillyant/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="https://www.linkedin.com/in/andrew-brillyant/">
                       <img src={linkedinLogo} alt="Icon" />
                     </a>
-                    <a
-                      href="http://wa.me/6285174419022"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="http://wa.me/6285174419022" target="_blank">
                       <img src={whatsappLogo} alt="Icon" />
                     </a>
                     <a
                       href="https://instagram.com/andrewbrillyant"
                       target="_blank"
-                      rel="noopener noreferrer"
                     >
                       <img src={instagramLogo} alt="Icon" />
                     </a>
