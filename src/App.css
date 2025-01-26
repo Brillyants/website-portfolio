@@ -878,6 +878,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
 }
 
+.career .icon {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 30px;
+}
+
+.career .icon-edu {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 30px;
+}
+
 @media (max-width: 576px) {
   .career-desc {
     padding: 30px;

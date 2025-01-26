@@ -1,4 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
+import suitcaseIcon from "../assets/img/suitcase.png";
+import mortarBoardIcon from "../assets/img/mortarboard.png";
 
 const CareerEducation = () => {
   return (
@@ -22,6 +24,11 @@ const CareerEducation = () => {
                   xl={6}
                   className="first-career-item text-lg-end text-md-end text-sm-end text-xs-start text-center"
                 >
+                  <img
+                    src={mortarBoardIcon}
+                    alt="Education"
+                    className="icon-edu"
+                  />
                   <Container className="year-and-experience-section">
                     <Row>
                       <Col xs={12} sm={4} md={4} xl={4}>
@@ -74,6 +81,11 @@ const CareerEducation = () => {
                   xl={6}
                   className="second-career-item text-lg-start text-md-start text-sm-start text-xs-start text-center"
                 >
+                  <img
+                    src={mortarBoardIcon}
+                    alt="Education"
+                    className="icon-edu"
+                  />
                   <Container className="year-and-experience-section">
                     <Row>
                       <Col xs={12} sm={8} md={8} xl={8} className="order-xs-2">
@@ -104,6 +116,7 @@ const CareerEducation = () => {
                   xl={6}
                   className="first-career-item text-lg-end text-md-end text-sm-end text-xs-start text-center"
                 >
+                  <img src={suitcaseIcon} alt="Career" className="icon" />
                   <Container className="year-and-experience-section">
                     <Row>
                       <Col xs={12} sm={4} md={4} xl={4}>
@@ -147,6 +160,7 @@ const CareerEducation = () => {
                   xl={6}
                   className="second-career-item text-lg-start text-md-start text-sm-start text-xs-start text-center"
                 >
+                  <img src={suitcaseIcon} alt="Career" className="icon" />
                   <Container className="year-and-experience-section">
                     <Row>
                       <Col xs={12} sm={8} md={8} xl={8} className="order-xs-2">
@@ -174,6 +188,7 @@ const CareerEducation = () => {
                   xl={6}
                   className="first-career-item text-lg-end text-md-end text-sm-end text-xs-start text-center"
                 >
+                  <img src={suitcaseIcon} alt="Career" className="icon" />
                   <Container className="year-and-experience-section">
                     <Row>
                       <Col xs={12} sm={4} md={4} xl={4}>
@@ -219,6 +234,7 @@ const CareerEducation = () => {
                   xl={6}
                   className="second-career-item text-lg-start text-md-start text-sm-start text-xs-start text-center"
                 >
+                  <img src={suitcaseIcon} alt="Career" className="icon" />
                   <Container className="year-and-experience-section">
                     <Row>
                       <Col xs={12} sm={8} md={8} xl={8} className="order-xs-2">
@@ -249,6 +265,7 @@ const CareerEducation = () => {
                   xl={6}
                   className="first-career-item text-lg-end text-md-end text-sm-end text-xs-start text-center"
                 >
+                  <img src={suitcaseIcon} alt="Career" className="icon" />
                   <Container className="year-and-experience-section">
                     <Row>
                       <Col xs={12} sm={4} md={4} xl={4} className="order-xs-2">
