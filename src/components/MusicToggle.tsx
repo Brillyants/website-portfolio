@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import { Music, MicOff } from "lucide-react";
+import { Music, VolumeOff } from "lucide-react";
 import noBgm from "../assets/img/no-copyright-bgm.mp3";
 
 const MusicToggle = () => {
@@ -29,7 +29,7 @@ const MusicToggle = () => {
         <span className="tooltip">
           {isPlaying ? "Pause Music" : "Play Music"}
         </span>
-        {isPlaying ? <MicOff size={24} /> : <Music size={24} />}
+        {isPlaying ? <VolumeOff size={24} /> : <Music size={24} />}
       </button>
       <audio ref={audioRef} loop>
         <source src={noBgm} type="audio/mpeg" />
