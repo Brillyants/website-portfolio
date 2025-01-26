@@ -729,7 +729,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 @media (max-width: 575px) {
   .footer #logo {
     display: block;
-    margin: 0 auto;
+    margin: 30px auto;
   }
 }
 
