@@ -83,7 +83,7 @@ select:focus {
 @media (min-width:1700px) {
   main .container {
     max-width: 100%;
-    padding: 0 150px;
+    padding: 0 125px;
   }
 }
 
@@ -122,7 +122,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
   letter-spacing: 0.8px;
-  padding: 0 25px;
+  padding: 10px 25px;
   font-size: 18px;
   opacity: 0.75;
 }
@@ -130,11 +130,6 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   opacity: 1;
-}
-
-span.navbar-text {
-  display: flex;
-  align-items: center;
 }
 
 .social-icon {
@@ -274,6 +269,48 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 #logo {
   border-radius: 10px;
+  height: auto;
+  transition: width 0.3s ease;
+}
+
+.navbar-text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.navbar-text .vvd {
+  margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+  .navbar-text {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 15px;
+  }
+
+  .navbar-text .social-icon {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navbar-text .vvd {
+    margin-top: 10px;
+  }
+
+  .navbar-text button {
+    padding: 9px 17px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 200px) {
+  #logo {
+    width: 115px;
+  }
 }
 
 /* End Navbar CSS */
@@ -293,7 +330,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   padding: 10px;
   background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
-  border: 1px solid #3C2573;
   font-size: 18px;
   margin-bottom: 16px;
   display: inline-block;
@@ -360,6 +396,45 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-right: 0.08em solid #666;
 }
 
+@media (max-width: 767px) {
+  .hero .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  .hero h1 {
+    font-size: 50px;
+  }
+
+  .hero .row img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .hero .tagline {
+    margin-bottom: 10px;
+  }
+
+  .hero p {
+    margin-bottom: 20px;
+  }
+
+  .hero button {
+    margin-top: 20px;
+    align-self: center;
+    width: auto;
+    display: inline-flex;
+    justify-content: center;
+  }
+
+  .row>* {
+    margin-bottom: 50px;
+  }
+}
+
 /* End Hero CSS */
 
 /* Start Skills CSS */
@@ -410,10 +485,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+@media (max-width: 991px) {
+  .skill p {
+    width: 100%;
+  }
+}
+
 /* End Skills CSS */
 
 /* Start Tools CSS */
-
 #tools {
   padding: 150px 0 150px 0;
 }
@@ -432,6 +512,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 14px auto 30px auto;
   text-align: center;
   width: 56%;
+}
+
+@media (max-width: 991px) {
+  .tool p {
+    width: 100%;
+  }
 }
 
 /* End Tools CSS */
@@ -564,14 +650,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
 }
 
-.background-image-right {
-  top: 20%;
-  position: absolute;
-  bottom: 0;
-  width: 35%;
-  right: 0;
-  z-index: -4;
+@media (max-width: 991px) {
+  .project p {
+    width: 100%;
+  }
 }
+
+/* End Project CSS */
 
 /* Start Contact CSS */
 .contact {
@@ -680,6 +765,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+
+.footer #logo {
+  width: 150px;
+}
+
+@media (max-width: 575px) {
+  .footer #logo {
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 /* End Footer CSS */

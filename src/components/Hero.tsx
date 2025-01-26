@@ -42,7 +42,7 @@ const Hero = () => {
   return (
     <section className="hero" id="home">
       <Container>
-        <Row className="align-items-center">
+        <Row>
           <Col xs={12} md={6} xl={6}>
             <span className="tagline">Andrew Brillyant</span>
             <h1>

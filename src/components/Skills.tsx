@@ -28,9 +28,8 @@ const Skills = () => {
             <div className="skill-bx">
               <h2>Skills</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam
+                I specialize in building seamless digital experiences with
+                expertise in both frontend and backend technologies.
               </p>
               <Carousel
                 responsive={responsive}

@@ -31,10 +31,13 @@ const Header = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" className="text-end">
           <Nav className="me-auto">
             <Nav.Link href="#skills" className="navbar-link">
               Skills
+            </Nav.Link>
+            <Nav.Link href="#tools" className="navbar-link">
+              Tools
             </Nav.Link>
             <Nav.Link href="#projects" className="navbar-link">
               Projects
@@ -42,14 +45,14 @@ const Header = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/andrew-brillyant/">
-                <img src={linkedinLogo} alt="" />
+              <a href="https://www.linkedin.com/in/andrewbrillyant/">
+                <img src={linkedinLogo} alt="LinkedIn" />
               </a>
               <a href="http://wa.me/6285174419022">
-                <img src={whatsappLogo} alt="" />
+                <img src={whatsappLogo} alt="WhatsApp" />
               </a>
               <a href="https://instagram.com/andrewbrillyant">
-                <img src={instagramLogo} alt="" />
+                <img src={instagramLogo} alt="Instagram" />
               </a>
             </div>
             <button className="vvd" onClick={() => console.log("test connect")}>

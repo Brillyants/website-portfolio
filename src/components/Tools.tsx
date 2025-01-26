@@ -17,36 +17,37 @@ const Tools = () => {
             <div className="tool-bx">
               <h2>Tools & Framework</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam
+                I work with a range of tools and frameworks to build efficient
+                and scalable solutions, focusing on technologies that enhance
+                both frontend and backend development for seamless,
+                high-performance applications.
               </p>
             </div>
             <Container>
-              <Row>
-                <Col>
-                  <img src={reactLogo} alt="" />
+              <Row className="justify-content-center">
+                <Col xs={6} md={3} xl={1}>
+                  <img src={reactLogo} alt="React" />
                 </Col>
-                <Col>
-                  <img src={laravelLogo} alt="" />
+                <Col xs={6} md={3} xl={1}>
+                  <img src={laravelLogo} alt="Laravel" />
                 </Col>
-                <Col>
-                  <img src={vueLogo} alt="" />
+                <Col xs={6} md={3} xl={1}>
+                  <img src={vueLogo} alt="Vue" />
                 </Col>
-                <Col>
-                  <img src={awsLogo} alt="" />
+                <Col xs={6} md={3} xl={1}>
+                  <img src={awsLogo} alt="AWS" />
                 </Col>
-                <Col>
-                  <img src={wordpressLogo} alt="" />
+                <Col xs={6} md={3} xl={1}>
+                  <img src={wordpressLogo} alt="Wordpress" />
                 </Col>
-                <Col>
-                  <img src={elementorLogo} alt="" />
+                <Col xs={6} md={3} xl={1}>
+                  <img src={elementorLogo} alt="Elementor" />
                 </Col>
-                <Col>
-                  <img src={tableauLogo} alt="" />
+                <Col xs={6} md={3} xl={1}>
+                  <img src={tableauLogo} alt="Tableau" />
                 </Col>
-                <Col>
-                  <img src={metabaseLogo} alt="" />
+                <Col xs={6} md={3} xl={1}>
+                  <img src={metabaseLogo} alt="Metabase" />
                 </Col>
               </Row>
             </Container>

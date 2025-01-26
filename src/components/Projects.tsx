@@ -53,11 +53,10 @@ const Projects = () => {
                 >
                   <h2>Projects</h2>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    I’ve had the opportunity to work on diverse projects,
+                    leveraging cutting-edge technologies to create impactful
+                    solutions. Each project highlights my commitment to quality,
+                    user experience, and innovation.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
@@ -65,17 +64,17 @@ const Projects = () => {
                       className="nav-pills mb-5 justify-content-center align-items-center"
                       id="pills-tab"
                     >
-                      <Nav.Item>
-                        <Nav.Link eventKey="first">Custom Website</Nav.Link>
+                      <Nav.Item className="project-nav-item">
+                        <Nav.Link eventKey="first">Web</Nav.Link>
                       </Nav.Item>
-                      <Nav.Item>
+                      <Nav.Item className="project-nav-item">
                         <Nav.Link eventKey="second">Android</Nav.Link>
                       </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="third">Data Analytics</Nav.Link>
+                      <Nav.Item className="project-nav-item">
+                        <Nav.Link eventKey="third">Data</Nav.Link>
                       </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="fourth">WP & Elementor</Nav.Link>
+                      <Nav.Item className="project-nav-item">
+                        <Nav.Link eventKey="fourth">WP</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content
