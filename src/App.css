@@ -317,12 +317,29 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* Start Hero CSS */
 .hero {
+  position: relative;
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/hero-bg.png');
+  background-image: url('./assets/img/hero-bg.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(27, 18, 43, 0.6);
+  z-index: 1;
+}
+
+.hero * {
+  position: relative;
+  z-index: 2;
 }
 
 .hero .tagline {
@@ -442,6 +459,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
+  z-index: 1000;
 }
 
 .skill-bx {
