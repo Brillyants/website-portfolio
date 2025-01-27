@@ -722,13 +722,27 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 50px;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 576px) {
   .about-desc {
     padding: 30px;
   }
 
   .about-title {
     padding: 20px;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .about-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-button {
+    margin-top: 30px;
   }
 }
 

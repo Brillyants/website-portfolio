@@ -1,5 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import SocialIcons from "./SocialIcons";
+import ArrowButton from "./ArrowButton";
 
 const About = () => {
   return (
@@ -45,6 +46,11 @@ const About = () => {
                 </Col>
               </Row>
             </Container>
+            <ArrowButton
+              text="Let's Connect"
+              url="http://wa.me/6285174419022"
+              className="about-button"
+            />
           </Col>
         </Row>
       </Container>
