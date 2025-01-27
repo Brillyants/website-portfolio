@@ -322,33 +322,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 96%;
 }
 
-.hero button {
-  color: #fff;
-  font-weight: 700;
-  font-size: 20px;
-  margin-top: 60px;
-  letter-spacing: 0.8px;
-  display: flex;
-  align-items: center;
-}
-
-.hero button svg {
-  font-size: 25px;
-  margin-left: 10px;
-  transition: 0.3s ease-in-out;
-  line-height: 1;
-}
-
-.hero button:hover svg {
-  margin-left: 25px;
-}
-
 .hero img {
   animation: updown 3s linear infinite;
-}
-
-.hero a {
-  text-decoration: none;
 }
 
 @keyframes updown {
@@ -392,7 +367,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     margin-bottom: 20px;
   }
 
-  .hero button {
+  .arrow-button button {
     margin-top: 20px;
     align-self: center;
     width: auto;
@@ -885,3 +860,41 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /* End Outlined Button CSS */
+
+/* Start Arrow Button CSS */
+.arrow-button button {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 60px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+}
+
+.arrow-button button svg {
+  font-size: 25px;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+}
+
+.arrow-button button:hover svg {
+  margin-left: 25px;
+}
+
+.arrow-button a {
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .arrow-button button {
+    margin-top: 20px;
+    align-self: center;
+    width: auto;
+    display: inline-flex;
+    justify-content: center;
+  }
+}
+
+/* End Arrow Button CSS */

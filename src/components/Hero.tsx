@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
 import heroImg from "../assets/img/hero-img.png";
 import { useEffect, useState } from "react";
+import ArrowButton from "./ArrowButton";
 
 const Hero = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -55,11 +55,10 @@ const Hero = () => {
               for excellence. I specialize in crafting seamless digital
               experiences that inspire and deliver results 🌟
             </p>
-            <a href="http://wa.me/6285174419022" target="_blank">
-              <button>
-                Let's Connect <ArrowRightCircle size={25} />
-              </button>
-            </a>
+            <ArrowButton
+              text="Let's Connect"
+              url="http://wa.me/6285174419022"
+            />
           </Col>
           <Col xs={12} md={6} xl={6}>
             <img src={heroImg} alt="Hero Image" />
