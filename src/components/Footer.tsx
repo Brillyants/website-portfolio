@@ -8,7 +8,7 @@ const Footer = () => {
       <Container>
         <Row className="align-items-center">
           <Col size={12} sm={6}>
-            <a href="#home">
+            <a href="#hero">
               <img src={logo} alt="Logo" id="logo" />
             </a>
           </Col>

@@ -35,7 +35,7 @@ const Header = () => {
       className={scrolled || isToggled ? "scrolled bg-grey" : ""}
     >
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="#hero">
           <img src={logo} alt="Logo" id="logo" />
         </Navbar.Brand>
         <Navbar.Toggle

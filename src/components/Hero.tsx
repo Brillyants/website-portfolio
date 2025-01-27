@@ -40,7 +40,7 @@ const Hero = () => {
     }
   };
   return (
-    <section className="hero" id="home">
+    <section className="hero" id="hero">
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={6}>
