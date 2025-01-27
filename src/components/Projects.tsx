@@ -19,6 +19,7 @@ import projMKitchen from "../assets/img/project-m-kitchen.png";
 import projSignageDigital from "../assets/img/project-signage-digital.png";
 import projTeknox from "../assets/img/project-teknox.png";
 import TrackVisibility from "react-on-screen";
+import OutlinedButton from "./OutlinedButton";
 
 const Projects = () => {
   const webProjects = [
@@ -213,12 +214,10 @@ const Projects = () => {
                 </div>
               )}
             </TrackVisibility>
-            <a
-              href="https://drive.google.com/drive/folders/1KBcf-3jyu-Uxqg-gDwD4ef-G0g6yCZ1D?usp=sharing"
-              target="_blank"
-            >
-              <button>More Projects...</button>
-            </a>
+            <OutlinedButton
+              text="More Projects..."
+              url="https://drive.google.com/drive/folders/1KBcf-3jyu-Uxqg-gDwD4ef-G0g6yCZ1D?usp=sharing"
+            />
           </Col>
         </Row>
       </Container>

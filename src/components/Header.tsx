@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import logo from "../assets/img/brillyant-logo.png";
 import SocialIcons from "./SocialIcons";
+import OutlinedButton from "./OutlinedButton";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -59,9 +60,10 @@ const Header = () => {
           </Nav>
           <span className="navbar-text">
             <SocialIcons />
-            <a href="http://wa.me/6285174419022" target="_blank">
-              <button className="vvd">Let's Connect</button>
-            </a>
+            <OutlinedButton
+              text="Let's Connect"
+              url="http://wa.me/6285174419022"
+            />
           </span>
         </Navbar.Collapse>
       </Container>
