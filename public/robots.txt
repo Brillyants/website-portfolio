@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://andrewbrillyant.vercel.app/sitemap.xml
