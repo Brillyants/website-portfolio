@@ -44,9 +44,8 @@ const CareerEducation = () => {
                     </Row>
                   </Container>
                   <p>
-                    Finishing high school majoring in social science with
-                    average score of 85. Head of Student Council (OSIS) for 2
-                    period XII
+                    Finishing high school, majoring in social science with
+                    average score of 85. Head of Student Council (OSIS)
                   </p>
                   <p>
                     Best Social Science Student grade X, XI, XII. Best
