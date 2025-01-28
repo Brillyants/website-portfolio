@@ -215,7 +215,7 @@ const Projects = () => {
               )}
             </TrackVisibility>
             <OutlinedButton
-              text="More Projects..."
+              text="Portfolio Details..."
               url="https://drive.google.com/drive/folders/1KBcf-3jyu-Uxqg-gDwD4ef-G0g6yCZ1D?usp=sharing"
             />
           </Col>
