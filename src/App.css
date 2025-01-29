@@ -17,7 +17,7 @@
   font-weight: 400;
 }
 
-/* General CSS */
+/* General */
 * {
   margin: 0;
   padding: 0;
@@ -118,7 +118,7 @@ p.danger {
   border-radius: 10px;
 }
 
-/* Start Navbar CSS */
+/* Start Navbar */
 nav.navbar {
   padding: 18px 0;
   position: fixed;
@@ -293,9 +293,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
-/* End Navbar CSS */
+/* End Navbar */
 
-/* Start Hero CSS */
+/* Start Hero */
 .hero {
   margin-top: 0;
   padding: 260px 0 100px 0;
@@ -376,9 +376,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
-/* End Hero CSS */
+/* End Hero */
 
-/* Start Skills CSS */
+/* Start Skills */
 .skill {
   padding: 0 0 50px 0;
   position: relative;
@@ -432,9 +432,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
-/* End Skills CSS */
+/* End Skills */
 
-/* Start Tools CSS */
+/* Start Tools */
 #tools {
   padding: 150px 0 150px 0;
 }
@@ -461,9 +461,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
-/* End Tools CSS */
+/* End Tools */
 
-/* Start Projects CSS */
+/* Start Projects */
 .project {
   padding: 80px 0;
   position: relative;
@@ -607,9 +607,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
-/* End Project CSS */
+/* End Project */
 
-/* Start Footer CSS */
+/* Start Footer */
 .footer {
   padding: 50px 0 50px 0;
   background-position: center center;
@@ -640,9 +640,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
-/* End Footer CSS */
+/* End Footer */
 
-/* Start Music CSS */
+/* Start Music */
 .music-toggle-container {
   position: fixed;
   bottom: 20px;
@@ -691,9 +691,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 1;
 }
 
-/* End Music CSS */
+/* End Music */
 
-/* Start About CSS */
+/* Start About */
 .about {
   margin: 150px 0 50px 0;
 }
@@ -746,9 +746,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
-/* End About CSS */
+/* End About */
 
-/* Start Career CSS */
+/* Start Career */
 .first-career-item {
   padding-right: 30px !important;
   border-right: 1px dotted rgb(177, 177, 177);
@@ -833,9 +833,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
-/* End Career CSS */
+/* End Career */
 
-/* Start Outlined Button CSS */
+/* Start Outlined Button */
 .outlined-button button {
   font-weight: 700;
   color: #fff;
@@ -873,9 +873,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-decoration: none;
 }
 
-/* End Outlined Button CSS */
+/* End Outlined Button */
 
-/* Start Arrow Button CSS */
+/* Start Arrow Button */
 .arrow-button button {
   color: #fff;
   font-weight: 700;
@@ -911,4 +911,43 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
-/* End Arrow Button CSS */
+/* End Arrow Button */
+
+/* Start CTA */
+
+.cta {
+  padding: 100px 0;
+  margin: 50px 0;
+}
+
+.cta img {
+  animation: updown 3s linear infinite;
+}
+
+.cta h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.cta p {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 30px auto;
+}
+
+@media (max-width: 767px) {
+  .cta img {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 577px) {
+  .cta {
+    padding: 0 30px;
+    text-align: center;
+  }
+}
+
+/* End CTA */

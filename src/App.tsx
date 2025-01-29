@@ -8,6 +8,7 @@ import Tools from "./components/Tools";
 import MusicToggle from "./components/MusicToggle";
 import About from "./components/About";
 import CareerEducation from "./components/CareerEducation";
+import CallToAction from "./components/CallToAction";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <CareerEducation />
       <Tools />
       <Projects />
+      <CallToAction />
       <Footer />
       <MusicToggle />
     </>
