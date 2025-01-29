@@ -918,6 +918,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .cta {
   padding: 100px 0;
   margin: 50px 0;
+  position: relative;
+  background-image: url('./assets/img/color-sharp-2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: center;
+  background-position-x: right;
 }
 
 .cta img {
