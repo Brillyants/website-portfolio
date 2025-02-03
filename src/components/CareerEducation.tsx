@@ -125,6 +125,9 @@ const CareerEducation = () => {
                         <p className="white-text experience-title">
                           Laboratory Assistant
                         </p>
+                        <p className="white-text">
+                          Universitas Multimedia Nusantara
+                        </p>
                       </Col>
                     </Row>
                   </Container>
@@ -166,6 +169,9 @@ const CareerEducation = () => {
                         <p className="white-text experience-title">
                           Front-end Web Developer
                         </p>
+                        <p className="white-text">
+                          Universitas Multimedia Nusantara
+                        </p>
                       </Col>
                       <Col xs={12} sm={4} md={4} xl={4} className="order-xs-1">
                         <p className="orange-text experience-year">2023</p>
@@ -199,6 +205,7 @@ const CareerEducation = () => {
                         <p className="white-text experience-title">
                           Master Data Management
                         </p>
+                        <p className="white-text">CIMB Niaga</p>
                       </Col>
                     </Row>
                   </Container>
@@ -240,6 +247,7 @@ const CareerEducation = () => {
                         <p className="white-text experience-title">
                           Full Stack Web Developer
                         </p>
+                        <p className="white-text">Indobest Artha Kreasi</p>
                       </Col>
                       <Col xs={12} sm={4} md={4} xl={4} className="order-xs-1">
                         <p className="orange-text experience-year">2024</p>
@@ -276,6 +284,7 @@ const CareerEducation = () => {
                         <p className="white-text experience-title">
                           Full Stack Web Developer
                         </p>
+                        <p className="white-text">Indobest Artha Kreasi</p>
                       </Col>
                     </Row>
                   </Container>
@@ -290,6 +299,46 @@ const CareerEducation = () => {
                   <p className="white-text">Tangerang, Indonesia</p>
                 </Col>
                 <Col xs={12} md={6} xl={6} className="second-career-item"></Col>
+              </Row>
+              <Row>
+                <Col
+                  xs={12}
+                  sm={6}
+                  md={6}
+                  xl={6}
+                  className="first-career-item"
+                ></Col>
+                <Col
+                  xs={12}
+                  sm={6}
+                  md={6}
+                  xl={6}
+                  className="second-career-item text-lg-start text-md-start text-sm-start text-xs-start text-center"
+                >
+                  <img src={suitcaseIcon} alt="Career" className="icon" />
+                  <Container className="year-and-experience-section">
+                    <Row>
+                      <Col xs={12} sm={8} md={8} xl={8} className="order-xs-2">
+                        <p className="white-text experience-title">
+                          Application Specialist
+                        </p>
+                        <p className="white-text">OCBC Indonesia</p>
+                      </Col>
+                      <Col xs={12} sm={4} md={4} xl={4} className="order-xs-1">
+                        <p className="orange-text experience-year">
+                          2025 - Present
+                        </p>
+                      </Col>
+                    </Row>
+                  </Container>
+                  <p>
+                    Full-time employee responsible for implementing, optimizing,
+                    and monitoring the interconnection between website channels
+                    and other platforms, focusing on marketing automation and
+                    website traffic monitoring.
+                  </p>
+                  <p className="white-text">Tangerang, Indonesia</p>
+                </Col>
               </Row>
             </Container>
           </Col>
