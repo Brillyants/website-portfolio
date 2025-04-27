@@ -332,10 +332,10 @@ const CareerEducation = () => {
                     </Row>
                   </Container>
                   <p>
-                    Employee responsible for implementing, optimizing, and
-                    monitoring the interconnection between website channels and
-                    other platforms, focusing on marketing automation and
-                    website traffic monitoring.
+                    Responsible for implementing, optimizing, and monitoring the
+                    interconnection between website channels and other
+                    platforms, focusing on marketing automation and website
+                    traffic monitoring.
                   </p>
                   <p className="white-text">Tangerang, Indonesia</p>
                 </Col>
