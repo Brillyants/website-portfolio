@@ -9,7 +9,7 @@ const CareerEducation = () => {
         <Row>
           <Col>
             <div className="text-center">
-              <span className="tagline">Life Time</span>
+              <span className="tagline">Timeline</span>
               <h2 className="career-title">
                 Education &<span className="purple-text"> Experience</span>
               </h2>
