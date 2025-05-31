@@ -7,6 +7,8 @@ import wordpressLogo from "../assets/img/wordpress.png";
 import metabaseLogo from "../assets/img/metabase.png";
 import tableauLogo from "../assets/img/tableau.png";
 import awsLogo from "../assets/img/aws.png";
+import sitecoreLogo from "../assets/img/sitecore.png";
+import salesforceLogo from "../assets/img/salesforce.png";
 
 const Tools = () => {
   return (
@@ -50,6 +52,12 @@ const Tools = () => {
                 </Col>
                 <Col xs={6} md={3} xl={1}>
                   <img src={metabaseLogo} alt="Metabase" />
+                </Col>
+                <Col xs={6} md={3} xl={1}>
+                  <img src={sitecoreLogo} alt="Sitecore" />
+                </Col>
+                <Col xs={6} md={3} xl={1}>
+                  <img src={salesforceLogo} alt="Salesforce" />
                 </Col>
               </Row>
             </Container>
