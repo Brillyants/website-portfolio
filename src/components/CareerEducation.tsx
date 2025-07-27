@@ -322,7 +322,7 @@ const CareerEducation = () => {
                         <p className="white-text experience-title">
                           Application Specialist
                         </p>
-                        <p className="white-text">Prima Integrasi Solusindo</p>
+                        <p className="white-text">PT Bank OCBC NISP Tbk</p>
                       </Col>
                       <Col xs={12} sm={4} md={4} xl={4} className="order-xs-1">
                         <p className="orange-text experience-year">
